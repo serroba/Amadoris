@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>AmaDoris - Home</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -14,6 +14,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/960.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -22,8 +24,52 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplateas.</p>
+        <header class="container container_12">
+            <div class="logo">
+                <a href='/' title="Home">
+                    <img src="img/logo_home.png">
+                </a>
+            </div>
+            <div class="top-tex">
+            </div>
+            <div class='top-shadow'></div>
+        </header>
 
+        <div class='main container container_12'>
+            <nav>
+                <ul>
+					<li><a href="#"><img src="img/product1.png"> White Basic Care</a></li>
+                    <li><a href="#"><img src="img/product2.png"> Pure Basic Care</a></li>
+                    <li><a href="#"><img src="img/product3.png"> Special Basic Care</a></li>
+                    <li><a href="#"><img src="img/product4.png"> Myo Basic Care</a></li>
+                    <li><a href="#"><img src="img/product5.png"> Anti Age Care</a></li>
+                    <li><a href="#"><img src="img/product6.png"> Cabin</a></li>
+                </ul>
+            </nav>
+			<div class='top-img-shadow'></div>
+			<div class='rotate-img'>
+				<img src='img/img_homepage.jpg'>
+			</div>
+			<div class='bottom-img-shadow'></div>
+			<div class='content'>
+				<h1>AmaDoris, Phyto High Performance of Switzerland</h1>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+				dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+				anim id est laborum."</p>
+			</div>
+        </div>
+		<footer>
+			<div class='container container_12'>
+				<h2>We are based in Switzerland and we have distributors all around the world!</h2>
+				<div class='grid_6'>Address</div>
+				<div class='grid_6'>
+					<img src='img/world_map_footer.png'>
+				</div>
+			</div>
+		</footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
@@ -31,10 +77,12 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+			var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+			(function(d, t) {
+				var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+				g.src = '//www.google-analytics.com/ga.js';
+				s.parentNode.insertBefore(g, s)
+			}(document, 'script'));
         </script>
     </body>
 </html>
