@@ -29,27 +29,58 @@ header .top-shadow{
     background: -webkit-radial-gradient(bottom center, ellipse , rgba(0,0,0,0.5), rgba(176, 158, 118, 0.1) 65%), #b09e76;
     background: radial-gradient(bottom center, ellipse , rgba(0,0,0,0.5), rgba(176, 158, 118, 0.1) 65%), #b09e76;
 }
-.main ul{
+.main nav ul{
 	display: table;
+	height: 114px;
 	margin: 20px  auto;
 	overflow: auto;
 	padding-left: 0px;
 	width: 850px;
 }
-.main ul li{
+.main nav ul li{
 	display: block;
 	float: left;
-	margin-right: 15px;
-	width: 125px;
+	height: 114px;
+	width: 140px;
 }
-.main ul li a{
-	color: black;
-	font-size: 11px;
+.main nav ul li a{
+	color: #212121;
+	font-family: 'Esteban', serif;
+	font-size: 17px;
 	text-decoration: none;
 	vertical-align: text-bottom;
 }
-.main ul li a img{
+.main nav ul li a img{
 	float: left;
+}
+.main .content h1{
+	color: #423632;
+	font-family: 'Noto Serif', serif;
+	font-size: 31px;
+	font-style: italic;
+}
+.main .content h2{
+	color: #181611;
+	font-family: 'Noto Serif', serif;
+	font-size: 24px;
+	font-style: italic;
+}
+.main .content p{
+	color: #181611;
+	font-family: 'Noto Serif', serif;
+	font-size: 20px;
+	font-style: normal;
+}
+.main .content a{
+	color: #fff;
+	font-family: 'Noto Serif', serif;
+	text-decoration: none;
+}
+.main ul{
+	list-style-image: url('../img/bullet.png');
+}
+.main ul li{
+	font-weight: bold;
 }
 .main .top-img-shadow{
     height: 12px;
@@ -66,6 +97,31 @@ header .top-shadow{
 }
 
 footer{
-	background: url('../img/footer_background.jpg') repeat-x top #57514d;
-	height: 455px;
+	background: #57514d; /*url('../img/footer_gradient.jpg') repeat-x top #57514d;*/
+	height: 350px;
+}
+
+footer h2{
+	color: #c5e9e9;
+	font-family: 'Noto Serif', serif;
+	font-size: 24px;
+	font-style: italic;
+	text-align: center;
+}
+footer address{
+	color: #fff;
+	font-family: 'Esteban', serif;
+	font-size: 16px;
+	font-style: normal;
+	margin-top: 20px;
+	padding-right: 20px;
+	text-align: right;
+}
+footer address a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer address .name{
+	font-size: 28px;
 }
