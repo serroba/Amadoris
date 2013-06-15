@@ -42,12 +42,12 @@
         <article class='main container container_12'>
             <nav>
                 <ul>
-					<li><a href="#"><img src="img/product1.png"> White Basic Care</a></li>
-                    <li><a href="#"><img src="img/product2.png"> Pure Basic Care</a></li>
-                    <li><a href="#"><img src="img/product3.png"> Special Basic Care</a></li>
-                    <li><a href="#"><img src="img/product4.png"> Myo Basic Care</a></li>
-                    <li><a href="#"><img src="img/product5.png"> Anti Age Care</a></li>
-                    <li><a href="#"><img src="img/product6.png"> Cabin</a></li>
+					<li><a href="#"><img src="img/product1.png"> <span class="text">White Basic Care</span></a></li>
+                    <li><a href="#"><img src="img/product2.png"> <span class="text">Pure Basic Care</span></a></li>
+                    <li><a href="#"><img src="img/product3.png"> <span class="text">Special Basic Care</span></a></li>
+                    <li><a href="#"><img src="img/product4.png"> <span class="text">Myo Basic Care</span></a></li>
+                    <li><a href="#"><img src="img/product5.png"> <span class="text">Anti Age Care</span></a></li>
+                    <li><a href="#"><img src="img/product6.png"> <span class="text">Cabin</span></a></li>
                 </ul>
             </nav>
 			<div class='top-img-shadow'></div>
@@ -105,7 +105,12 @@
 		<script src="js/vendor/jquery.nivo.slider.pack.js"></script>
 		<script type="text/javascript">
 			$(window).load(function() {
-				$('#slider').nivoSlider();
+				$('#slider').nivoSlider({
+					prevText: '', // Prev directionNav text
+					nextText: '', // Next directionNav text
+					controlNav: false, // 1,2,3... navigation
+					controlNavThumbs: false, // Use thumbnails for Control Nav
+				});
 			});
 		</script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
