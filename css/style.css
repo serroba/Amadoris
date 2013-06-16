@@ -135,3 +135,61 @@ footer address .name{
 	padding: 0;
 	visibility: hidden;
 }
+.internal header .top-tex{
+	background: url('../img/category_name.png') no-repeat center center transparent;
+}
+
+.internal header nav ul{
+	display: table;
+	height: 114px;
+	margin: 20px  auto;
+	overflow: auto;
+	padding-left: 0px;
+	width: 850px;
+}
+.internal header nav ul li{
+	display: block;
+	float: left;
+	height: 114px;
+	width: 140px;
+}
+.internal header nav ul li a{
+	color: #212121;
+	font-family: 'Esteban', serif;
+	font-size: 13px;
+	text-decoration: none;
+	vertical-align: text-bottom;
+}
+.internal header nav ul li a .text{
+	display: block;
+	margin-top: 30px;
+}
+.internal header nav ul li a img{
+	float: left;
+}
+.internal .grid ul{
+	list-style: none;
+	list-style-image: none;
+}
+.internal .grid ul li{
+	background-color: rgb(210, 181, 149);
+	height: 106px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+.internal .grid ul li img{
+	display: block;
+	float: left;
+	max-width: 85px;
+}
+.internal .grid ul li .text{
+	display: block;
+	color: white;
+	float: left;
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 20px;
+	padding: 40px 15px;
+	width: 300px;
+}
