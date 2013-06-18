@@ -12,11 +12,13 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/960.css">
     <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/colorbox.css">
     <link href='http://fonts.googleapis.com/css?family=Esteban' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -61,7 +63,7 @@
       <div class="grid">
         <div class="grid_6">
           <ul>
-            <li><a href="#1"><img src="img/thumb1.jpg"><span class="text">Apricot Scrub Mask</span></a></li>
+            <li><a class="lightbox" href="apricot-scrub-mask.html"><img src="img/thumb1.jpg"><span class="text">Apricot Scrub Mask</span></a></li>
             <li><a href="#1"><img src="img/thumb1.jpg"><span class="text">Luminous Day Emulsion SPF15</span></a></li>
             <li><a href="#1"><img src="img/thumb1.jpg"><span class="text">Cellular Radiance Daily Emulsion SPF30</span></a></li>
             <li><a href="#1"><img src="img/thumb1.jpg"><span class="text">Apricot Scrub Mask</span></a></li>
@@ -99,6 +101,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/vendor/jquery.nivo.slider.pack.js"></script>
+    <script src="js/vendor/jquery.colorbox-min.js"></script>
     <script type="text/javascript">
           $(window).load(function() {
             $('#slider').nivoSlider({
@@ -107,7 +110,9 @@
               controlNav: false, // 1,2,3... navigation
               controlNavThumbs: false, // Use thumbnails for Control Nav
             });
+            $(".lightbox").colorbox({iframe: true, width: "1024", height: "90%", opacity: "0.65", close: "close"});
           });
+
     </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
