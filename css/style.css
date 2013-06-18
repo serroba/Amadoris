@@ -170,12 +170,25 @@ footer address .name{
 .internal .grid ul{
 	list-style: none;
 	list-style-image: none;
+  padding-left: 0;
 }
 .internal .grid ul li{
 	background-color: rgb(210, 181, 149);
+  border-radius: 2px;
 	height: 106px;
 	margin-bottom: 10px;
 	overflow: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.internal .grid ul li:hover{
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 .internal .grid ul li img{
 	display: block;
