@@ -80,10 +80,10 @@ header .top-shadow{
 	font-family: 'Noto Serif', serif;
 	text-decoration: none;
 }
-.main ul{
+.main ul, ul.bullet{
 	list-style-image: url('../img/bullet.png');
 }
-.main ul li{
+.main ul li, ul.bullet{
 	font-weight: bold;
 }
 .main .top-img-shadow{
@@ -192,4 +192,41 @@ footer address .name{
 	line-height: 20px;
 	padding: 40px 15px;
 	width: 300px;
+}
+
+body.details{
+	background-color: white;
+}
+.deatils h1{
+	color: #423632;
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
+	font-style: italic;
+}
+.details h2{
+	color: #b06161;
+	font-family: 'Esteban', serif;
+	font-size: 14px;
+	font-style: normal;
+}
+.details h3{
+	color: #181611;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	font-style: italic;
+}
+.details p{
+	color: #181611;
+	font-family: 'Esteban', serif;
+	font-size: 13px;
+	font-style: normal;
+	
+}
+.details a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.details ul.bullet{
+	
 }
